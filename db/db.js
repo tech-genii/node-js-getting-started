@@ -6,4 +6,4 @@ const todos =  [
     }
 ];
 
-export default todos;
+exports.todos = todos;
