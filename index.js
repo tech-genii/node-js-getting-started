@@ -1,5 +1,5 @@
 const express = require('express')
-const todos = require('./db/db')
+import {todos} from './db/db';
 const path = require('path')
 const PORT = process.env.PORT || 5000
 
