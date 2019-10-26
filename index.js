@@ -1,10 +1,13 @@
 const express = require('express')
 import todos from './db/db';
+import cors from 'cors';
 const path = require('path')
 const PORT = process.env.PORT || 5000
 
 
 const app = express();
+
+app.use(cors())
 
 app.get('/api/v1/todos',(req,res)=>{
   res.status(200).send({
