@@ -39,5 +39,10 @@ For more information about using Node.js on Heroku, see these Dev Center article
 - [Using WebSockets on Heroku with Node.js](https://devcenter.heroku.com/articles/node-websockets)
 
 
-## App endpoint
+## Deployment
+
+Steps
+- Merge code to `deploy-heroku` branch
+- Push the branch
+
 - [Base url](https://tg-node-js-sample.herokuapp.com)
