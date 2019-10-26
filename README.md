@@ -43,6 +43,6 @@ For more information about using Node.js on Heroku, see these Dev Center article
 
 Steps
 - Merge code to `deploy-heroku` branch
-- Push the branch
+- Push the branch to deploy : `git push deploy deploy-heroku`
 
 - [Base url](https://tg-node-js-sample.herokuapp.com)
